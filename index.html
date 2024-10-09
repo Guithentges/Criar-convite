@@ -94,7 +94,7 @@
                             <label for="colors">Cor principal</label>
                             <div class="select-colors">
                                 <div class="light">
-                                    <input type="checkbox" name="colors" id="light" checked>
+                                    <input type="checkbox" name="colors" id="light" >
                                 </div>
                                 <div class="navy">
                                     <input type="checkbox" name="colors" id="navy">
@@ -232,6 +232,52 @@
                             </div>
                         </div>
                     </fieldset>
+                    <div class="header">
+                        <img src="/assets/contact.svg" alt="contato">
+                        <h2>Dados para contato</h2>
+                    </div>
+                    <fieldset id="dados">
+                        <div class="input-wrap-title">
+                            <label for="name">Nome</label>
+                            <input 
+                            type="text"
+                            id="name"
+                            placeholder="Nome Completo"
+                            required
+                            >
+                        </div>
+                        <div class="input-wrap-start">
+                            <label for="start">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+                        </div>
+                        <div class="input-wrap-end">
+                            <label for="end">Telefone</label>
+                            <input type="tel" name="telefone" id="telefone" placeholder="(99)99999-9999">
+                        </div>
+                    </fieldset>
+                    <fieldset id="footer">
+                        <div class="footer">
+                            <div class="footer-items">
+                                <div class="footer-check">
+                                    <input type="checkbox" name="termos" id="termos">
+                                    <label for="termos">Li e concordo com os <span>Termos e Condições</span>
+                                    e com a <span>Política de Privacidade</span></label>
+                                </div>
+                                <div class="footer-check">
+                                    <input type="checkbox" name="att-email" id="att-email">
+                                    <label for="att-email">Aceito receber atualizações e promoções por e-mail</label>
+                                </div>
+                                <div class="footer-check">
+                                    <input type="checkbox" name="att-sms" id="att-sms">
+                                    <label for="att-sms">Aceito receber atualizações e promoções por SMS</label>
+                                </div>
+                            </div>
+                            <div class="submit">
+                                <img src="/assets/ticket.svg" alt="ticket">
+                                <input type="submit" value="Gerar convite">
+                        </div>
+                    </fieldset>
+                    </div>
                 </form>
             </div>
         </div>
