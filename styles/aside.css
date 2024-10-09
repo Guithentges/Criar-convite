@@ -1,7 +1,7 @@
 .aside{
     width: 400px;
     height: 728px;
-    background-image: url(../assets/Background.svg);
+    background: url("https://guithentges.github.io/Criar-convite/assets/Background.svg");
     border-radius: 12px;
     margin-top: 20px;
     margin-left: 140px;

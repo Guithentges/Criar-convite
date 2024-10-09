@@ -34,7 +34,7 @@
         cursor: pointer;
     }
     & input:checked{
-        background-image: url(/assets/Vector.svg);
+        background: url("https://guithentges.github.io/Criar-convite/assets/Vector.svg");
         background-repeat: no-repeat;
         background-size: 100%;
         border: 1px solid var(--brand-light);
