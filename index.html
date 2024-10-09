@@ -31,7 +31,108 @@
             </div>
         </div>
         <div class="main">
-
+            <div class="create">
+                <h2>Crie seu convite</h2>
+            </div>
+            <div class="form">
+                <form action="post">
+                    <div class="header">
+                        <img src="assets/calendar.svg" alt="icone de calendario">
+                        <h2>Sobre o evento</h2>
+                    </div>
+                    <fieldset id="sobre-evento">
+                        <div class="input-wrap-title">
+                            <label for="name">Título</label>
+                            <input 
+                            type="text"
+                            id="name"
+                            placeholder="Nome do evento"
+                            >
+                        </div>
+                        <div class="input-wrap-start">
+                            <label for="start">Início</label>
+                            <input type="date" name="start" id="start">
+                        </div>
+                        <div class="input-wrap-end">
+                            <label for="end">Fim</label>
+                            <input type="date" name="end" id="end">
+                        </div>
+                        <div class="radio-wrap">
+                            <label for="type">Tipo</label>
+                            <div class="radios">
+                                <div class="radio-inner">
+                                    <img src="assets/building3.svg" alt="presencial">
+                                    <input type="radio" name="type" id="presencial" checked>
+                                    <label for="presencial">Presencial</label>
+                                </div>
+                                <div class="radio-inner">
+                                    <img src="assets/video3.svg" alt="online">
+                                    <input type="radio" name="type" id="online">
+                                    <label for="online">Online</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-wrap-venue">
+                            <label for="venue">Local</label>
+                            <input type="text" name="venue" id="venue" placeholder="Link ou endereço">
+                        </div>
+                        <div class="textarea">
+                            <label for="details">Descrição</label>
+                            <textarea 
+                            name="details" 
+                            id="details">Escreva sobre os detalhes do evento
+                            </textarea>
+                        </div>
+                        
+                    </fieldset>
+                    <div class="header">
+                        <img src="assets/paintbrush-vertical.svg" alt="icone de pincel">
+                        <h2>Personalização</h2>
+                    </div>
+                    <fieldset id="personalizacao">
+                        <div class="colors">
+                            <label for="colors">Cor principal</label>
+                            <div class="select-colors">
+                                <div class="light">
+                                    <input type="radio" name="colors" id="light">
+                                </div>
+                                <div class="navy">
+                                    <input type="radio" name="colors" id="navy">
+                                </div>
+                                <div class="purple">
+                                    <input type="radio" name="colors" id="purple">
+                                </div>
+                                <div class="fuschia">
+                                    <input type="radio" name="colors" id="fuschia">
+                                </div>
+                                <div class="pink">
+                                    <input type="radio" name="colors" id="pink">
+                                </div>
+                                <div class="danger">
+                                    <input type="radio" name="colors" id="danger">
+                                </div>
+                                <div class="orange">
+                                    <input type="radio" name="colors" id="orange">
+                                </div>
+                                <div class="yellow">
+                                    <input type="radio" name="colors" id="yellow">
+                                </div>
+                                <div class="lime">
+                                    <input type="radio" name="colors" id="lime">
+                                </div>
+                                <div class="green">
+                                    <input type="radio" name="colors" id="green">
+                                </div>
+                                <div class="cyan">
+                                    <input type="radio" name="colors" id="cyan">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme"></div>
+                        <div class="last"></div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </div>
 </body>
